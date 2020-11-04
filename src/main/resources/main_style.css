@@ -1,0 +1,52 @@
+.jfx-button {
+    -fx-max-width: infinity;
+    -fx-max-height: infinity;
+}
+
+.label{
+    -fx-font-size: 14;
+    -fx-text-fill: gray;
+}
+
+.info-text{
+    -fx-font-size: 14;
+    -fx-fill: gray;
+}
+
+.text-field {
+    -fx-font-size: 24;
+}
+
+.root {
+    -fx-padding: 20;
+    -fx-font-family: roboto;
+    cell-color: white;
+    cell-border-color: gray;
+}
+
+.grid {
+    /* 1 pixel border around the top and right of the grid: */
+    -fx-background-color: cell-border-color, cell-color;
+    -fx-background-insets: 0, 1 1 0 0;
+    -fx-padding: 1;
+}
+
+.cell {
+    /* 1 pixel border around the left and bottom of each cell: */
+    -fx-font-size: 20;
+    -fx-background-color: cell-border-color, cell-color;
+    -fx-background-insets: 0, 0 0 1 1;
+    -jfx-button-type: FLAT;
+}
+
+.operator-button {
+    cell-color: rgb(240, 240, 240);
+}
+
+.number-button {
+    cell-color: rgb(250, 250, 250);
+}
+
+.equal-button {
+    cell-color: rgb(138, 186, 224);
+}
